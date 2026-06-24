@@ -22,6 +22,7 @@ This is not just theory — every concept here is written, tested, and version-c
 ```
 Terraform/
 ├── day1/          # Terraform basics & first provider configuration
+├── day2/          # Providers, state, variables, functions & debugging
 ├── day3/          # Resource blocks, attributes & dependencies
 ├── day4/          # Variables, locals & outputs
 ├── day5/          # State management & remote backends
@@ -40,6 +41,15 @@ Terraform/
 - Installing Terraform and configuring the first provider
 - Understanding `terraform init`, `plan`, and `apply`
 - Writing and deploying the first `.tf` configuration file
+
+### 📌 Day 2 — Terraform Deep Dive
+- Understanding providers and how Terraform connects to AWS, Azure, GCP, and other platforms
+- Learning how Terraform state tracks deployed infrastructure
+- Using `required_providers` to lock provider sources and versions
+- Creating reusable configurations with input variables and output values
+- Adding simple logic with conditional expressions
+- Using built-in functions for strings, lists, maps, and type conversion
+- Debugging and formatting Terraform with `validate`, `plan`, `console`, `TF_LOG`, and `fmt`
 
 ### 📌 Day 3 — Resources, Attributes & Dependencies
 - Defining cloud resources with `resource` blocks
